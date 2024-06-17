@@ -1,45 +1,5 @@
 # projects section data
-- name: 库恩—塔克条件教学中两个容易忽略的问题
-  author: 董云达，陈铁生
+- name: A family of operator splitting methods revisited
   gh_user: ydong2024
-  desc: 库恩—塔克条件是同时含有等式与不等式约束函数的优化问题的最优性条件,已成为优化与控制,运筹与管理的一个核心内容.笔者通过多年的教学实践,发现了两个容易忽略的问题.第一个,对比经典的拉格朗日乘子法(针对于仅含等式约束函数的优化问题),它的推导方法并不是库恩—塔克条件的推导方法一个推广.第二个,库恩—塔克条件中的拉格朗日乘子(存在的话)未必是唯一的.
-
-- name: 关于凸极小化的Douglas-Rachford分裂方法的一个注
-  author: 康倍倍，董云达，王亚丽
-  gh_user: ydong2024
-  desc: 在一个实的无穷维Hilbert空间中,研究关于凸极小化的Douglas-Rachford分裂方法.假设目标函数中的f和g均为闭的真凸函数,并且f的梯度是Lipschitz连续的.分析了Douglas-Rachford分裂方法的弱收敛性,其中邻近参数可以变化并且上界与f的梯度的Lipschitz常数有关.
-
-- name: 解单调算子零点的Halpern方法的一个收敛率
-  author: 董云达，黄元元，周书芳
-  gh_user: ydong2024
-  desc: 研究解极大单调算子零点的Halpern方法.如果该算子的逆在原点处是Lipschitz连续的,并且有关参数适当选取的话,首次给出了该方法的一个收敛率.
-
-- name: 解单调算子零点的Halpern方法的一个收敛率
-  author: 董云达，黄元元，周书芳
-  gh_user: ydong2024
-  desc: A Halpern method for finding a zero of a maximal monotone operator is investigated. The first convergence rate is given provided that the associated inversion operator is Lipschitz continuous at the origin and the involved parameters are properly chosen.%研究解极大单调算子零点的Halpern方法.如果该算子的逆在原点处是Lipschitz连续的,并且有关参数适当选取的话,首次给出了该方法的一个收敛率.
-
-- name: 一个投影收缩算法的新步长
-  author: 黄莎,董云达
-  gh_user: ydong2024
-  desc: 本文研究了求解单调变分不等式问题的一个投影收缩算法.利用何炳生教授的分析手法,给出了新步长,并且证明了在该步长下算法的全局收敛性.初步的数值试验表明了新步长的实用性.
-
-- name: 论强单调算子下的邻点算法
-  author: 董云达
-  gh_user: ydong2024
-  desc: 考虑强单调算子下的邻点算法.证明了它容许弱于可和性条件的绝对误差以及每个松弛因子不超过某个较小正数的相对误差.
-
-- name: Richardson迭代法的一个常数步长
-  author: 董云达，尤燕飞
-  gh_user: ydong2024
-  desc: 对于求解对称正定线性方程组的Richardson迭代法,给出一个新的常数步长.它仅依赖于系数矩阵的对角线上的最小元素和最大特征值.而且,还证明了在该步长下Richardson迭代法产生的梯度模序列线性地趋于0.初步的数值试验表明了新步长的某些优势.
-
-- name: 一类Sylvester矩阵方程的一个迭代算法
-  author: 董云达，陈铁生
-  gh_user: ydong2024
-  desc: 考虑这样一类Sylvester矩阵方程:AX+XB=C,A,B分别为n阶正半定,正定矩阵,C为n阶矩阵.给出了一个收敛的迭代算法.
-
-- name: 一类求解单调包含问题的分裂方法
-  author: 董云达
-  gh_user: ydong2024
-  desc: 在最优化和最优控制领域中,极大单调包含(maximalmonotoneinclusions)是一类基本问题;而邻点算法(proximalpointalgorithm)是解决这类问题的一种经典方法.从本质上讲,该算法在很大程度上仅是一个漂亮,有力的算法框架,因为它对于许多实际问题,其计算效果并不理想. 为了使解决方法相对易行,人们提出了分裂法(splittingmethods).比较经典的有:向前向后分裂法,Peaceman-Rachford分裂法和Douglas-Rachford分裂法.不过,前两种尽管形式简单,但其收敛性条件较为苛刻.后一种虽然具有一般的收敛性,但在每次迭代中,不仅需要估算向后映射的预解式,而且...
+  desc: A family of operator splitting methods for maximal monotone operators is investigated.It generalizes the Douglas–Peaceman–Rachford–Varga class of methods in the way that it allows the scaling parameters to vary from iteration to iteration non-monotonically.Conditions for convergence of methods within this family and for obtaining a linear rate of convergence are given. These conditions cover more general cases than the existing ones.
+  download: downloads/NA2010.pdf

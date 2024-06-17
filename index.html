@@ -18,9 +18,6 @@ robots: noindex
             <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
           </div>
           <div class="timeline-body">
-            {% if project.author %}
-              <h5>作者:{{ project.author | markdownify }}</h5>
-            {% endif %}
             {% if project.desc %}
               {{ project.desc | markdownify }}
             {% else %}
@@ -33,6 +30,12 @@ robots: noindex
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
               <div style="height: 10px;"></div> -->
+              <div class="btn" style="text-align: center;">
+                <a href={{site.baseurl}}/{{project.download}} target="_blank">原文阅读</a>
+              </div>
+              <div class="btn" style="text-align: center;">
+                <a href={{site.baseurl}}/{{project.download}} download>文件下载</a>
+              </div>
           </div>
         </div>
       </li>
