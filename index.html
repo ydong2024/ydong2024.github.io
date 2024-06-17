@@ -30,12 +30,14 @@ robots: noindex
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
               <div style="height: 10px;"></div> -->
+            {% if project.download %}
               <div class="btn" style="text-align: center;">
                 <a href={{site.baseurl}}/{{project.download}} target="_blank">原文阅读</a>
               </div>
               <div class="btn" style="text-align: center;">
                 <a href={{site.baseurl}}/{{project.download}} download>文件下载</a>
               </div>
+            {% endif %}
           </div>
         </div>
       </li>
