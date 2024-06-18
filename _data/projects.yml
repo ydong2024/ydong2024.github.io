@@ -3,7 +3,7 @@
   gh_user: ydong2024
   desc: A family of operator splitting methods for maximal monotone operators is investigated.It generalizes the Douglas–Peaceman–Rachford–Varga class of methods in the way that it allows the scaling parameters to vary from iteration to iteration non-monotonically.Conditions for convergence of methods within this family and for obtaining a linear rate of convergence are given. These conditions cover more general cases than the existing ones.
   download: downloads/NA2010.pdf
-  # projects section data
+
 - name: Douglas–Rachford splitting method for semidefinite programming
   gh_user: ydong2024
   desc: In this paper, we study the Douglas–Rachford (DR) splitting method when applied to the standard semidefinite programming, and we introduce a new variant of this method and under weak assumptions prove its global convergence. At each iteration, it needs to solve two subproblems. First, project once onto the set of all symmetric positive semidefinite matrices. Then, solve one system of linear equations whose co-efficient matrix is symmetric positive definite. This is in sharp contrast to symmetric positive semi-definiteness of the corresponding co-efficient matrix in the boundary point method recently proposed by Povh et al. More importantly, we analyze the iteration complexity of the DR splitting method and derive the currently best result. Based on rigorous analysis in theory, we suggest an implementable version. Rudimentary numerical experiments confirm its efficiency and robustness on certain test problems with more than one million equality constraints.
