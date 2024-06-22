@@ -8,3 +8,8 @@
   gh_user: ydong2024
   desc: In this paper, we study the Douglas–Rachford (DR) splitting method when applied to the standard semidefinite programming, and we introduce a new variant of this method and under weak assumptions prove its global convergence. At each iteration, it needs to solve two subproblems. First, project once onto the set of all symmetric positive semidefinite matrices. Then, solve one system of linear equations whose co-efficient matrix is symmetric positive definite. This is in sharp contrast to symmetric positive semi-definiteness of the corresponding co-efficient matrix in the boundary point method recently proposed by Povh et al. More importantly, we analyze the iteration complexity of the DR splitting method and derive the currently best result. Based on rigorous analysis in theory, we suggest an implementable version. Rudimentary numerical experiments confirm its efficiency and robustness on certain test problems with more than one million equality constraints.
   download: downloads/2016_Journal.pdf
+
+- name: AN INERTIAL SPLITTING METHOD FOR MONOTONE INCLUSIONS OF THREE OPERATORS
+  gh_user: ydong2024
+  desc: In this article, we consider monotone inclusions of three operators in real Hilbert spaces and suggest an inertial version of a generalized Douglas-Rachford splitting. Under standard assumptions, we prove its weak and strong convergence properties. The newly-developed proof techniques are based on the characteristic operator and thus are more self-contained and less convoluted. Rudimentary experiments demonstrated that our suggested inertial splitting method can efficiently solve some large-scale test problems.
+  download: downloads/Yunda_Dong_Xiao_Zhu.pdf
