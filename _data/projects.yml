@@ -14,7 +14,4 @@
   desc: In this article, we consider monotone inclusions of three operators in real Hilbert spaces and suggest an inertial version of a generalized Douglas-Rachford splitting. Under standard assumptions, we prove its weak and strong convergence properties. The newly-developed proof techniques are based on the characteristic operator and thus are more self-contained and less convoluted. Rudimentary experiments demonstrated that our suggested inertial splitting method can efficiently solve some large-scale test problems.
   download: downloads/Yunda_Dong_Xiao_Zhu.pdf
 
-  - name: On an accelerated Krasnoselskii-Mann iteration
-  gh_user: ydong2024
-  desc: This is the original submission to JOTA in August of 2023. Based on the reviewer's suggestions, I revised it and renamed it as "Directed Krasnoselskii-Mann iteration" in the revised version.
-  download: downloads/JOTAD2300590.pdf
+  
