@@ -19,4 +19,8 @@
   desc: This is the original submission to JOTA in August of 2023. Based on the reviewer's suggestions, I revised it and renamed it as "Directed Krasnoselskii-Mann iteration" in the revised version.
   download: downloads/JOTAD2300590.pdf
 
+- name: Splitting Methods for Monotone Inclusions
+  gh_user: ydong2024
+  desc: This is the main part of Dong's Ph.D. dissertation, completed in April of 2003. It can be found in Dong's Researchgate as well.  
+  download: downloads/dongthesis.pdf
   
