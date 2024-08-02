@@ -23,4 +23,9 @@
   gh_user: ydong2024
   desc: This is the main part of Dong's Ph.D. dissertation, completed in April of 2003. It can be found in Dong's Researchgate as well.  
   download: downloads/dongthesis.pdf
+
+- name: On an inertial Krasnoselskii-Mann iteration
+  gh_user: ydong2024
+  desc: In this article, we consider Krasnoselskii-Mann iteration for finding a fixed point of non-expansive operators in real Hilbert spaces. By introducing new, concise and self-contained techniques, we propose new inertial factors with desirable upper bounds better than or comparable to existing ones. 
+  download: downloads/DongLuo2024.pdf
   
