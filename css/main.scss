@@ -58,3 +58,22 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+/* 导航项容器样式 */
+.nav-row {
+  display: flex; /* 使用Flexbox布局 */
+  flex-wrap: wrap; /* 允许内容换行 */
+  justify-content: center; /* 居中对齐 */
+}
+
+/* 单个导航项样式 */
+.navigation__item {
+  margin: 5px; /* 添加一些外边距，以便区分各个导航项 */
+}
+
+/* 当屏幕宽度小于600px时，导航项堆叠显示 */
+@media (max-width: 600px) {
+  .navigation__item {
+    width: 100%; /* 每个导航项占满整行 */
+    text-align: center; /* 文本居中 */
+  }
+}
