@@ -1,0 +1,5 @@
+# projects section data
+- name: A family of operator splitting methods revisited
+  gh_user: ydong2024
+  desc: A family of operator splitting methods for maximal monotone operators is investigated.It generalizes the Douglas–Peaceman–Rachford–Varga class of methods in the way that it allows the scaling parameters to vary from iteration to iteration non-monotonically.Conditions for convergence of methods within this family and for obtaining a linear rate of convergence are given. These conditions cover more general cases than the existing ones.
+  download: downloads/NA2010.pdf
