@@ -1,4 +1,5 @@
 # masterpieces section data
 - name: Dongmasterpiece
   gh_user: ydong2024
+  cover_image: masterpieces/Dongmasterpiece.jpg
   download: masterpieces/Dongmasterpiece.pdf
