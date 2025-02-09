@@ -1,20 +1,20 @@
 # masterpieces section data
-- name: Dongmasterpiece
+- name: Dong's Masterpieces
   gh_user: ydong2024
   cover_image: masterpieces/Dongmasterpiece.jpg
-  download: masterpieces/Dongmasterpiece.pdf
+  download: masterpieces/Dong's Masterpieces.pdf
 
 - name: 董云达学术地位
   gh_user: ydong2024
   cover_image: masterpieces/Dongmasterpiece.jpg
   download: masterpieces/董云达学术地位.pdf
 
-- name: 老师们的评价和小同行的引用
+- name: 老师的评价 & 同行的引用
   gh_user: ydong2024
   cover_image: masterpieces/Dongmasterpiece.jpg
-  download: masterpieces/老师们的评价和小同行的引用.pdf
+  download: masterpieces\老师的评价 & 同行的引用.pdf
 
-- name: 荣获2019年度“全国优秀教育工作者”称号
+- name: 荣获“全国优秀教育工作者”称号
   gh_user: ydong2024
   cover_image: masterpieces/Dongmasterpiece.jpg
   download: masterpieces/荣获2019年度“全国优秀教育工作者”称号.pdf
