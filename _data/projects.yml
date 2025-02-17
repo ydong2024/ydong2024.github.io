@@ -17,7 +17,7 @@
 - name: New properties of forward–backward splitting and a practical proximal-descent algorithm
   gh_user: ydong2024
   desc: In this paper, we discuss a proximal-descent algorithm for ﬁnding a zero of the sum of two maximal monotone operators in a real Hilbert space. Some new properties of forward–backward splitting are given, which extend the well-known properties of the usual projection. Then, they are used to analyze the wea k convergence of the proximal-descent algorithm without assuming Lipschitz continuity of the forward operator. We also give a new technique of choosing trial values of the step length involved in an Armijo-like condition, which returns the (not necessarily decreasing) step length self-adaptively. 
-  download: downloads/New properties of forward–backward splitting and a practical proximal-descent algorithm.pdf
+  download: downloads/New_properties_of_forward–backward_splitting_and_a_practical_proximal-descent_algorithm.pdf
 
 - name: 库恩—塔克条件教学中两个容易忽略的问题
   gh_user: ydong2024
@@ -37,7 +37,7 @@
 - name: Anew splitting method for systems of monotone inclusions in Hilbert spaces
   gh_user: ydong2024
   desc: In this article, we consider the problem of finding a zero of systems of monotone inclusions in real Hilbert spaces.
-  download: downloads/Anew splitting method for systems of monotone inclusions in Hilbert spaces.pdf
+  download: downloads/A_new_splitting_method_for_systems_of_monotone_inclusions_in_Hilbert_spaces.pdf
 
 - name: Extended splitting methods for systems of three-operator monotone inclusions with continuous operators
   gh_user: ydong2024
