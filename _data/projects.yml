@@ -14,10 +14,11 @@
   desc: A family of operator splitting methods for maximal monotone operators is investigated.It generalizes the Douglas–Peaceman–Rachford–Varga class of methods in the way that it allows the scaling parameters to vary from iteration to iteration non-monotonically.Conditions for convergence of methods within this family and for obtaining a linear rate of convergence are given. These conditions cover more general cases than the existing ones.
   download: downloads/dong_fischer.pdf
 
-- name: New properties of forward–backward splitting and a practical proximal-descent algorithm
+- name: The Proximal Point Algorithm Revisited
   gh_user: ydong2024
-  desc: In this paper, we discuss a proximal-descent algorithm for ﬁnding a zero of the sum of two maximal monotone operators in a real Hilbert space. Some new properties of forward–backward splitting are given, which extend the well-known properties of the usual projection. Then, they are used to analyze the wea k convergence of the proximal-descent algorithm without assuming Lipschitz continuity of the forward operator. We also give a new technique of choosing trial values of the step length involved in an Armijo-like condition, which returns the (not necessarily decreasing) step length self-adaptively. 
-  download: downloads/New_properties_of_forward–backward_splitting_and_a_practical_proximal-descent_algorithm.pdf
+  desc: In this paper, we consider the proximal point algorithm for the problem of finding zeros of any given maximal monotone operator in an infinite-dimensional Hilbert space. For the usual distance between the origin and the operator’s value at each iterate, we put forth a new idea to achieve a new result on the speed at which the distance sequence tends to zero globally, provided that the problem’s solution set is nonempty and the sequence of squares of the regularization parameters is nonsummable. We show that it is comparable to a classical result of Brézis and Lions in general and becomes better whenever the proximal point algorithm does converge strongly. 
+  download: downloads/The_proximal_point_algorithm_revisited.pdf
+
 
 - name: 库恩—塔克条件教学中两个容易忽略的问题
   gh_user: ydong2024
@@ -34,10 +35,10 @@
   desc: In this article, we consider monotone inclusions of three operators in real Hilbert spaces and suggest an inertial version of a generalized Douglas-Rachford splitting. Under standard assumptions, we prove its weak and strong convergence properties. The newly-developed proof techniques are based on the characteristic operator and thus are more self-contained and less convoluted. Rudimentary experiments demonstrated that our suggested inertial splitting method can efficiently solve some large-scale test problems.
   download: downloads/DongZhu.pdf
 
-- name: The Proximal Point Algorithm Revisited
+- name: A new splitting method for systems of monotone inclusions in Hilbert spaces
   gh_user: ydong2024
-  desc: In this paper, we consider the proximal point algorithm for the problem of finding zeros of any given maximal monotone operator in an infinite-dimensional Hilbert space. For the usual distance between the origin and the operator’s value at each iterate, we put forth a new idea to achieve a new result on the speed at which the distance sequence tends to zero globally, provided that the problem’s solution set is nonempty and the sequence of squares of the regularization parameters is nonsummable. We show that it is comparable to a classical result of Brézis and Lions in general and becomes better whenever the proximal point algorithm does convergestrongly. 
-  download: downloads/The_proximal_point_algorithm_revisited.pdf
+  desc: In this article, we consider the problem of finding a zero of systems of monotone inclusions in real Hilbert spaces.Furthermore, each monotone inclusion consists of three operators and the third is linearly composed. We suggest a splitting method for solving them, At each iteration, for each monotone inclusion, it mainly needs computations of three resolvents for individual operator. This method can be viewed as a powerful extension of the classical Douglas–Rachford splitting. Under the weakest possible assumptions, by introducing and using the characteristic operator, we analyze its weak convergence. 
+  download: downloads/A_new_splitting_method_for_systems_of_monotone_inclusions_in_Hilbert_spaces.pdf
 
 - name: Extended splitting methods for systems of three-operator monotone inclusions with continuous operators 
   gh_user: ydong2024
