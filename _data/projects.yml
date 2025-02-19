@@ -34,12 +34,12 @@
   desc: In this article, we consider monotone inclusions of three operators in real Hilbert spaces and suggest an inertial version of a generalized Douglas-Rachford splitting. Under standard assumptions, we prove its weak and strong convergence properties. The newly-developed proof techniques are based on the characteristic operator and thus are more self-contained and less convoluted. Rudimentary experiments demonstrated that our suggested inertial splitting method can efficiently solve some large-scale test problems.
   download: downloads/DongZhu.pdf
 
-- name: Anew splitting method for systems of monotone inclusions in Hilbert spaces
+- name: The Proximal Point Algorithm Revisited
   gh_user: ydong2024
-  desc: In this article, we consider the problem of finding a zero of systems of monotone inclusions in real Hilbert spaces.
-  download: downloads/A_new_splitting_method_for_systems_of_monotone_inclusions_in_Hilbert_spaces.pdf
+  desc: In this paper, we consider the proximal point algorithm for the problem of finding zeros of any given maximal monotone operator in an infinite-dimensional Hilbert space. For the usual distance between the origin and the operator’s value at each iterate, we put forth a new idea to achieve a new result on the speed at which the distance sequence tends to zero globally, provided that the problem’s solution set is nonempty and the sequence of squares of the regularization parameters is nonsummable. We show that it is comparable to a classical result of Brézis and Lions in general and becomes better whenever the proximal point algorithm does convergestrongly. 
+  download: downloads/The_proximal_point_algorithm_revisited.pdf
 
-- name: Extended splitting methods for systems of three-operator monotone inclusions with continuous operators
+- name: Extended splitting methods for systems of three-operator monotone inclusions with continuous operators 
   gh_user: ydong2024
   desc: In this article, we propose two new splitting methods for solving systems of three-operator monotone inclusions in real Hilbert spaces, where the first operator is continuous monotone, the second is maximal monotone and the third is maximal monotone and is linearly composed.
   download: downloads/journal2024.pdf
