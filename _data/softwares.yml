@@ -1,0 +1,5 @@
+# softwares section data
+- name: 软件下载测试
+  gh_user: ydong2024
+  cover_image: masterpieces/Dong_criteria.png
+  download: softwares/test.zip

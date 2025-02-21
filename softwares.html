@@ -1,0 +1,46 @@
+---
+layout: default
+robots: noindex
+---
+
+<!--<div class="main-post-list">-->
+
+  <ul class="timeline">
+    
+    {% for software in site.data.softwares %}
+
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ software.cover_image | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>{{ software.name }}</h4>
+          </div>
+          <div class="timeline-body">
+            {% if software.cover_image %}
+                <img src="{{ software.cover_image | prepend: site.baseurl }}" alt="">
+            {% endif %}
+            <!-- <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
+              <div style="height: 10px;"></div> -->
+            {% if software.download %}
+              <div class="btn" style="text-align: center;">
+                <a href={{site.baseurl}}/{{software.download}} download>文件下载</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
+
+<!--</div>-->
