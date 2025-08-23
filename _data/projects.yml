@@ -45,4 +45,7 @@
   desc: In this article, we propose two new splitting methods for solving systems of three-operator monotone inclusions in real Hilbert spaces, where the first operator is continuous monotone, the second is maximal monotone and the third is maximal monotone and is linearly composed.
   download: downloads/journal2024.pdf
  
-  
+- name: Directed Krasnosel'skii-Mann Iteration
+  gh_user: ydong2024
+  desc: Here are two preprints. One is my manuscript entitled "Directed Krasnosel'skii-Mann Iteration". The other is my manuscript entitled "On an accelerated Krasnosel'skii-Mann iteration", and I ever submitted it to JOTA in August, 2023. The former is a revised version of the latter.
+  download: downloads/directedKM.pdf
